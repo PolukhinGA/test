@@ -6,5 +6,14 @@ let incr = 10,
 //++incr;
 //--decr;
 
-console.log(incr++);
-console.log(decr--);
+console.log(++incr);
+console.log(--decr);
+
+console.log(5 % 2);
+
+console.log(2 * 4 === 8);
+
+const isChecket = false;
+const isClose = false;
+
+console.log(isChecket || !isClose);
