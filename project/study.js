@@ -1,34 +1,25 @@
 'use strict';
 
-if (4 == 9) {
-    console.log('ok!');
-} else {
-    console.log('error!');
-}
+const str = "text";
 
-const num = 50;
+console.log(str.toUpperCase());
+console.log(str.toLowerCase());
 
-if (num < 49) {
-    console.log('error!');
-} else if (num > 100) {
-    console.log('a lot!');
-} else {
-    console.log('ok!');
-}
+let fruit = 'some fruit';
+console.log(fruit.indexOf('fruit'));
 
-(num == 50) ? console.log('ok!') : console.log('error!');
+const logg = "hello world";
+
+//console.log(logg.slice(6, 11));
+
+//console.log(logg.substring(6, 11));
+
+console.log(logg.substr(7, 5));
 
 
-const sum = 100;
+const num = 12.2;
+console.log(Math.round(num));
 
-switch (sum) {
-    case 89:
-        console.log("no");
-        break;
-    case 100:
-        console.log("yes");
-        break;
-    default:
-        console.log("not yet");
-        break;
-}
+const test = '11.8px';
+console.log(parseInt(test));
+console.log(parseFloat(test));
